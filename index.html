@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-secondary py-5 ">
+        <div class="container ps-5 pe-5 ">
+          <a class="logo-anchor navbar-brand position-relative fs-3 text-white ms-5" href="#">
+                <img src="./images/logo@2x.png" class="w-25" alt="">
+                <span class="ms-2">Weather</span>
+          
+        </a>
+         
+          <div class="collapse navbar-collapse me-4" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NewsLive</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="imag overflow-auto pt-3">
+        <div >
+            <form class="search position-relative">
+                <input type="text" class="search-btn form-control w-75 mx-auto mt-5 py-3 rounded-5 border-0 text-light " placeholder="find your location...">
+                <input type="button" value="Find" id="submit" fdprocessedid="hp5aq" class="but position-absolute text-light btn rounded-5">
+                <!-- <button class="btn position-absolute text-light rounded-5 px-5 py-2">find</button> -->
+            </form>
+        </div>
+      </div>
+
+      <div class="cards pb-5 ">
+        <div class="container">
+            <div class="row mx-5 mb-3 gy-2">
+                <div class="items col-md-4 shadow-lg rounded-3">
+                    <div class="card-item text-light mb-3">
+                        <div class="header w-100 d-flex justify-content-between">
+                            <p class="ms-2 pt-1" id="day-name">Saturday</p>
+                            <p class="me-2 pt-1" id="day-date">12October</p>
+                        </div>
+                        <div class="body pb-2">
+                            <h3 class="fs-6 mt-3" id="city">Cairo</h3>
+                            <h1 class="" id="temp">25.2oC</h1>
+                            <img src="./images/113.png" alt="" class="w-25" id="data-image">
+                            <p class="text-primary mb-5 pb-4" id="state">clear</p>
+                            <div class="icons d-flex">
+                             <p id="icon-umberella"><img src="./images/icon-umberella.png" alt=""> <span class="fs-6">20%</span></p>
+                            <p class="mx-5" id="wind"><img src="./images/icon-wind.png" alt=""> <span class="fs-6">18km/h</span></p>
+                            <p id="compass"><img src="./images/icon-compass.png" alt=""> <span class="fs-6">East</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item2 col-md-4 shadow-lg ">
+                    <div class="card-item text-light mb-3">
+                        <div class="header w-100 d-flex justify-content-around">
+                            <p class="next-day ms-2 pt-1 w-100">Sunday</p>
+                        </div>
+                        <div class="body text-center mt-4">
+                            <img src="./images/113 (1).png" alt="" class="img-next my-3">
+                            <h3 class="next-day-temp mt-3">34.7oC</h3>
+                            <p class="next-min-temp">22.7o</p>
+                            <p class="next-state text-primary">Sunny</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items col-md-4 shadow-lg rounded-3">
+                    <div class="card-item text-light">
+                        <div class="header w-100 d-flex justify-content-around">
+                            <p class="next-day pt-1">Monday</p>
+                        </div>
+                        <div class="body text-center mt-4">
+                            <img src="./images/113 (1).png" alt="" class="img-next my-3">
+                            <h3 class="next-day-temp mt-3">34.7oC</h3>
+                            <p class="next-min-temp">22.7o</p>
+                            <p class="next-state text-primary">Sunny</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+      </div>
+
+      <footer>
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col col-md-8 ms-4 mb-5 ">
+                    <div class="foot">
+                        <div class="sub">
+                            <form class="sear position-relative" action="">
+                                <input type="text" class="form-control mt-5 py-3 rounded-5 border-0 text-light" placeholder=" Enter your email to subscribe...">
+                                <button class="btn rounded-5 text-light ms-5">search</button>
+
+                            </form>
+                            <p class="text-secondary mt-4  ms-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col col-md-3 mt-5">
+                    <div class="links ">
+                        <div class="icons d-flex justify-content-between">                         
+                            <div class="text-center"><a href="#" class=""><i class=" fs-5 fa-brands fa-facebook-f"></i></a></div>
+                            <div class="text-center"><a href="#" class=""><i class=" fs-5 fa-brands fa-twitter"></i></a></div>
+                            <div class="text-center"><a href="#" class=""><i class=" fs-5 fa-brands fa-google-plus"></i></a></div>
+                            <div class="text-center"><a href="#" class=""><i class=" fs-5 fa-brands fa-pinterest"></i></a></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+      </footer>
+      <!-- <a href="#" class="button">Home</a> -->
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
